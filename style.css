@@ -1,0 +1,40 @@
+/* centering is a nightmare, thank you @wesbos https://github.com/wesbos/keycodes/blob/gh-pages/style.css */
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 30px;
+  padding: 10px;
+  overflow-y: hidden;
+  margin-top: 60px;
+  margin-left: 4vw;
+  margin-right: 4vw;
+}
+.display {
+  text-align: center;
+  display: table;
+  height:100%;
+  margin:0 auto;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+img.logo {
+  max-width: 100%;
+  margin-top: 100px;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    font-size: 20px;
+  }
+  .wrap {
+    width: 80vw;
+  }
+}
