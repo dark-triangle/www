@@ -13,7 +13,9 @@
     />
 
     <link rel="icon" type="image/png" href="images/heart128.png" />
+
   </head>
+
   <body>
     <h1>Dark Triangle LLC</h1>
     <p>
@@ -22,5 +24,29 @@
     </p>
 
     <img src="./images/logo@2x.jpg" alt="logo" class="logo"/>
+
+    <section class="prior-clients">
+      <h2 class="prior-clients">Prior Clients</h2>
+
+      <img src="./images/aether-logo-black.svg" alt="Aether logo" width="300" class="client-logo"/>
+      <br/>
+      <quote>"Dawson was a joy to work with - incredibly responsive, detail oriented, and technically skilled. He went above and beyond for the project we worked on together, and I am very much looking forward to working with him again in the future!" <br/><br/>- Hannah Meyers - CoFounder of Aether Bio</quote>
+
+      <img src="./images/aero-logo.jpg" alt="Aero logo" height="120" class="client-logo"/>
+      <quote>"From day one, Dawson brought a skill set that made him productive immediately and an attitude that was delightful to work with during my time with him at Aero.
+
+        <br/>
+        <br/>
+        Dawson is a product-focused engineer with a strong technical background and an eye for detail. During his time at Aero, he increased the typing and test coverage of the codebase, simplified and streamlined developer tooling, and increased the accessibility of the website. His code was thoughtful and sustainable even though he was working on tight deadlines." <br/><br/>- Ben Williams - Software Engineer at <a href="https://aero.com">Aero</a></quote>
+
+    </section>
+    <footer id="copyright">
+    </footer>
+
+    <script src="https://unpkg.com/rainge/bundle.js"></script>
+    <script>
+      document.getElementById('copyright').innerHTML="Copyright " + rainge(2019)
+    </script>
+
   </body>
 </html>
