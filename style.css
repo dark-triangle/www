@@ -53,3 +53,12 @@ img.client-logo {
   font-size: 18px;
   margin-bottom: 30px;
 }
+
+p.outreach {
+  margin-top: 80px;
+}
+
+a {
+  text-decoration: underline;
+  color: black;
+}
