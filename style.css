@@ -22,6 +22,9 @@ img.logo {
   max-width: 100%;
   margin-top: 100px;
 }
+.logo-container {
+  text-align: center;
+}
 
 @media only screen and (max-width: 800px) {
   body {
