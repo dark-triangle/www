@@ -23,6 +23,7 @@ img.logo {
   max-width: 70%;
 }
 img.eth-logo {
+  margin-top: 60px;
   max-height: 500px;
 }
 .logo-container {
