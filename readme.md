@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./images/logo@2x.jpg" width="300"/>
+  <img src="https://avatars2.githubusercontent.com/u/49670561" width="400"/>
   <br/>
-  <b>Homepage website for Dark Triangle</b>
+  <b>www</b>
 </p>
