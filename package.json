@@ -1,5 +1,7 @@
 {
+  "name": "darktriangle",
   "scripts": {
-    "deploy": "npx now && npx now alias"
+    "deploy": "npx now --prod",
+    "build": "echo build"
   }
 }

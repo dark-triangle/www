@@ -1,11 +1,4 @@
 {
   "version": 2,
-  "name": "dark-triangle",
-  "alias": "darktriangle.tech",
-  "routes": [
-      {
-        "src": "/coaching",
-        "dest": "https://mailchi.mp/4defcc4b8c38/coach"
-      }
-  ]
+  "name": "darktriangle"
 }
