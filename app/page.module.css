@@ -1,0 +1,192 @@
+.page {
+  min-height: 100vh;
+  padding: 3rem 1.5rem 4rem;
+  background:
+    radial-gradient(circle at top, rgba(235, 19, 104, 0.18), transparent 28%),
+    linear-gradient(180deg, #f5f1e7 0%, #efe7d8 100%);
+}
+
+.shell {
+  width: min(980px, 100%);
+  margin: 0 auto;
+}
+
+.hero {
+  margin-top: 2rem;
+}
+
+.kicker {
+  margin-bottom: 1rem;
+  color: #7b2348;
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.title {
+  margin-bottom: 1rem;
+  font-size: clamp(2.6rem, 9vw, 5.4rem);
+  line-height: 0.9;
+  letter-spacing: -0.08em;
+}
+
+.eyebrow {
+  margin-bottom: 1.5rem;
+  font-size: clamp(1.1rem, 3vw, 1.7rem);
+}
+
+.highlight {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: #eb1368;
+  color: #fff8ef;
+}
+
+.subHeader {
+  max-width: 48rem;
+  margin-bottom: 4rem;
+  font-size: clamp(1rem, 2.5vw, 1.35rem);
+  line-height: 1.5;
+}
+
+.section {
+  margin-bottom: 4rem;
+}
+
+.sectionHeader {
+  margin-bottom: 2rem;
+}
+
+.sectionTitle {
+  margin-bottom: 0.75rem;
+  font-size: clamp(2rem, 5vw, 3rem);
+}
+
+.sectionIntro {
+  max-width: 44rem;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.clientCard {
+  display: grid;
+  grid-template-columns: minmax(140px, 220px) minmax(0, 1fr);
+  gap: 1.5rem 2rem;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  border: 1px solid rgba(17, 17, 17, 0.08);
+  border-radius: 1.5rem;
+  background: rgba(255, 250, 242, 0.88);
+  box-shadow: 0 20px 50px rgba(81, 39, 20, 0.08);
+}
+
+.logoLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
+  min-height: 120px;
+  padding: 0.85rem 1rem;
+  border-radius: 1.25rem;
+  background: #ffffff;
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.logoLink:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 30px rgba(17, 17, 17, 0.08);
+}
+
+.testimonialBody {
+  min-width: 0;
+}
+
+.clientLogo {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.quoteHighlight {
+  margin-bottom: 1rem;
+  color: #22140f;
+  font-size: clamp(1.2rem, 2.8vw, 1.7rem);
+  line-height: 1.4;
+  letter-spacing: -0.03em;
+}
+
+.quoteDetails {
+  border-top: 1px solid rgba(17, 17, 17, 0.1);
+  padding-top: 1rem;
+}
+
+.quoteToggle {
+  cursor: pointer;
+  color: #7b2348;
+  font-weight: 700;
+  list-style: none;
+}
+
+.quoteToggle::-webkit-details-marker {
+  display: none;
+}
+
+.quoteToggle::after {
+  content: " +";
+}
+
+.quoteDetails[open] .quoteToggle::after {
+  content: " -";
+}
+
+.quote {
+  max-width: 54rem;
+  margin-top: 1rem;
+  font-size: clamp(1rem, 2.3vw, 1.35rem);
+  line-height: 1.8;
+}
+
+.quote p + p {
+  margin-top: 1.5rem;
+}
+
+.attribution {
+  margin-top: 1.5rem;
+  color: #5e554f;
+  font-size: 0.95rem;
+  font-style: normal;
+}
+
+.outreach {
+  margin: 4rem 0 1rem;
+  font-size: clamp(1.4rem, 4vw, 2rem);
+}
+
+.cta a {
+  text-decoration: none;
+}
+
+.footer {
+  padding-top: 2rem;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 700px) {
+  .page {
+    padding: 1.5rem 1rem 3rem;
+  }
+
+  .clientCard {
+    grid-template-columns: 1fr;
+  }
+
+  .logoLink {
+    width: fit-content;
+  }
+}
